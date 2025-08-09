@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #87cefa, #f0f8ff);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 60%;
+    font-size: 1em;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #0078d7;
+    color: white;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+.weather-box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
