@@ -34,7 +34,7 @@ async function fetchWeather(url) {
         <h2>${data.city}</h2>
         <p>🌡 Temperature: ${data.temperature}°C</p>
         <p>💨 Wind Speed: ${data.wind_speed} m/s</p>
-        <p>🌧 Rain (last 1h): ${data.rain || "0"} mm</p>
+        <p>🌧 Rain (last 1h): ${data.rain || "saukaryavilla mazha kanikkan"} mm</p>
         <p>${data.status}</p>
     `;
 

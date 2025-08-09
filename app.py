@@ -28,17 +28,17 @@ def get_weather():
         geo_url = f"http://api.openweathermap.org/geo/1.0/direct?q={city}&limit=1&appid={API_KEY}"
         geo_res = requests.get(geo_url).json()
         if not geo_res:
-            return jsonify({"error": "City not found"}), 404
+            return jsonify({"error": "ithoke eth sthalavede"}), 404
         lat, lon = geo_res[0]["lat"], geo_res[0]["lon"]
 
     if not lat or not lon:
-        return jsonify({"error": "Latitude and Longitude are required"}), 400
+        return jsonify({"error": "oru rekshayillaatto"}), 400
 
     url = f"http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API_KEY}&units=metric"
     weather_data = requests.get(url).json()
 
     if weather_data.get("cod") != 200:
-        return jsonify({"error": "Failed to get weather"}), 500
+        return jsonify({"error": "aliya thenj"}), 500
 
     rain = weather_data.get("rain", {}).get("1h", 0)  # mm in last 1h
     wind_speed = weather_data["wind"]["speed"]  # m/s
@@ -46,11 +46,11 @@ def get_weather():
 
     alert = None
     if rain > 10 or wind_speed > 15:
-        alert = "⚠️ Dangerous weather — stay safe!"
+        alert = "⚠️ ayyyyyoooooo sooookshikkane!"
     elif rain > 2 or wind_speed > 8:
-        alert = "☔ Moderate weather alert"
+        alert = "☔ oo valya scenila sookshichutto "
     else:
-        alert = "✅ Weather looks fine"
+        alert = "✅ scenilla mwonu poli weather anutto"
 
     return jsonify({
         "city": weather_data["name"],
