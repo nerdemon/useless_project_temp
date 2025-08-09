@@ -50,7 +50,8 @@ For Software:
 ![Screenshot1](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](Add screenshot 2 here with proper name)<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/42bef405-57aa-46e4-969e-493e4f159f45" />
+
 *Add caption explaining what this shows*
 
 ![Screenshot3](Add screenshot 3 here with proper name)
