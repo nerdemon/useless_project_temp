@@ -1,96 +1,78 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# [VEEZHUMO] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name:VERIETY
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: VINAYAK D - SREE CHITRA THIRUNAL COLLEGE OF ENGINEERING
+- Member 2: ROHIT AJOY - SREE CHITRA THIRUNAL COLLEGE OF ENGINEERING
+
 
 ### Project Description
-[2-3 lines about what your project does]
+what we tried to built A quirky weather alert system that not only warns you about rain and wind but does it with personality and humor — because who said weather alerts have to be boring?
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Why settle for boring weather updates when you could get alerts that warn you about flying mangoes, dropping coconuts, and other surprising hazards? Avoiding unexpected falling fruit is a serious challenge, yet nobody talks about the trauma of getting bonked by nature’s surprises!
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+A smart weather alert system that uses live weather data to send personalized, fun, and practical alerts about rain and wind, helping users avoid falling coconuts mangoes etc.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
+- Python, JavaScript, HTML, CSS
+- flask
+- OpenWeatherMap
 - [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+[commands]git clone https://github.com/nerdemon/useless_project_temp.git
+cd useless_project_temp
 
 # Run
-[commands]
+[commands]python app.py
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+ith kanda weather and windspeed rain oke vech alert adikum <img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/a0e59c45-0631-4ff6-9d22-706db7c7627f" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
+
+![Screenshot2](Add screenshot 2 here with proper name)<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/42bef405-57aa-46e4-969e-493e4f159f45" />
+
 *Add caption explaining what this shows*
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+run-localhost site-type location or manual fetching alert if nay rain or wind higher than usual
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+<img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/61348e78-4d4c-49a6-876f-34bf75d296e6" />
+https://drive.google.com/file/d/1skLOJUOZUaJX1nBrvY6Aj4PX3Gb0XBHN/view?usp=sharing
 *Explain what the video demonstrates*
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- VINAYAK D: backend
+- ROHTI AJOY frontend
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
