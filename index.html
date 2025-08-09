@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌴 Veezhumo? 🍂</title>
+    <link rel="stylesheet" href="/static/style.css"> <!-- Link to your CSS -->
+</head>
+<body>
+    <h1>🌴 Veezhumo? 🍂</h1>
+    
+    <!-- Form to enter location -->
+    <form method="POST">
+        <input type="text" name="location" placeholder="Enter location (e.g., Thrissur)" required>
+        <button type="submit">Check Now</button>
+    </form>
+
+    <!-- Display the prediction result if available -->
+    {% if prediction %}
+    <div class="result">
+        <h2>{{ prediction }}</h2>
+    </div>
+    {% endif %}
+
+    <!-- Optional meme sound if prediction contains 'thenga' -->
+    <audio id="memeSound" src="/static/prithvi.mp3"></audio>
+
+    <!-- JavaScript to play the audio if 'thenga' is mentioned in prediction -->
+    <script>
+    // Pass Flask's prediction value to JavaScript
+    var prediction = "{{ prediction }}";
+
+    // Check if prediction contains 'thenga'
+    if (prediction && prediction.includes("thenga")) {
+        // Play the sound if prediction contains 'thenga'
+        document.getElementById("memeSound").play();
+    }
+</script>
+
+</body>        
+</html>
