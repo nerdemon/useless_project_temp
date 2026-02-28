@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>veezhumo?</title>
+    <title>🌴 Veezhumo? 🍂</title>
     <link rel="stylesheet" href="/static/css/style.css">
     <script src="/static/js/location.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <h1>🌦 veezhumo?</h1>
+        <header>
+            <h1>🌴 Veezhumo? 🍂</h1>
+            <p class="subtitle">The ultimate falling-fruit weather alert system</p>
+        </header>
 
         <div class="input-section">
-            <input type="text" id="cityInput" placeholder="Enter city (e.g., Kollam)">
-            <button onclick="getWeatherByCity()">Get Weather</button>
-            <button onclick="getWeatherByLocation()">Use My Location</button>
+            <input type="text" id="cityInput" placeholder="Enter your city (e.g., Thrissur)">
+            <div class="button-group">
+                <button onclick="getWeatherByCity()" class="btn-primary">🔍 Check Now</button>
+                <button onclick="getWeatherByLocation()" class="btn-secondary">📍 My Location</button>
+            </div>
         </div>
 
-        <div id="weatherResult" class="weather-box">
-            <p>Enter a city or share your location to see weather info.</p>
-        </div>
+        <div id="weatherResult" class="weather-box" style="display: none;">
+            </div>
     </div>
 
-    <!-- Play your prithvi.mp3 when alert triggers -->
-    <audio id="alertSound" src="/static/prithvi.mp3"></audio>
+    <audio id="alertSound" src="/static/prithvi.mp3" preload="auto"></audio>
 </body>
 </html>
