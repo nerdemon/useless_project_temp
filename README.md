@@ -57,7 +57,7 @@ Automatically detect location via request and shows live weather features
 ![Screenshot3](Add screenshot 3 here with proper name)
 <img width="996" height="854" alt="image" src="https://github.com/user-attachments/assets/3a3d3766-8c1c-4be8-b377-1b2eb12acb22" />
 In wind and rainy areas alerts are shown along with background sound
-*Add caption explaining what this shows*
+
 
 # Diagrams
 run-localhost site-type location or manual fetching alert if any rain or wind higher than usual
@@ -67,9 +67,11 @@ run-localhost site-type location or manual fetching alert if any rain or wind hi
 ### Project Demo
 # Video
 <img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/61348e78-4d4c-49a6-876f-34bf75d296e6" />
-[https://drive.google.com/file/d/1skLOJUOZUaJX1nBrvY6Aj4PX3Gb0XBHN/view?usp=sharing](https://drive.google.com/file/d/1lOj9cKZckBqEXOWSDSGQLUnNX23U0SgW/view?usp=sharing)
+
+https://drive.google.com/file/d/1lOj9cKZckBqEXOWSDSGQLUnNX23U0SgW/view?usp=sharing
+
 The landing webpage detects location via search box or automatically via request fetches the details and alerts if the windspeed or rain is adverse in climatic conditions and alert via sound upon such a situation
-*Explain what the video demonstrates*
+
 
 # Additional Demos
 
