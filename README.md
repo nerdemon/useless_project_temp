@@ -46,29 +46,33 @@ For Software:
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
-ith kanda weather and windspeed rain oke vech alert adikum <img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/a0e59c45-0631-4ff6-9d22-706db7c7627f" />
+<img width="1375" height="876" alt="image" src="https://github.com/user-attachments/assets/28f013ea-d2a4-45fd-8746-e1d78ae6cafc" />
 
 
-![Screenshot2](Add screenshot 2 here with proper name)<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/42bef405-57aa-46e4-969e-493e4f159f45" />
 
-*Add caption explaining what this shows*
+![Screenshot2](Add screenshot 2 here with proper name)
+<img width="1142" height="869" alt="image" src="https://github.com/user-attachments/assets/dd4e293a-474d-4e58-b837-7eae7ced9be4" />
+Automatically detect location via request and shows live weather features
 
 ![Screenshot3](Add screenshot 3 here with proper name)
+<img width="996" height="854" alt="image" src="https://github.com/user-attachments/assets/3a3d3766-8c1c-4be8-b377-1b2eb12acb22" />
+In wind and rainy areas alerts are shown along with background sound
 *Add caption explaining what this shows*
 
 # Diagrams
-run-localhost site-type location or manual fetching alert if nay rain or wind higher than usual
+run-localhost site-type location or manual fetching alert if any rain or wind higher than usual
 
 
 
 ### Project Demo
 # Video
 <img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/61348e78-4d4c-49a6-876f-34bf75d296e6" />
-https://drive.google.com/file/d/1skLOJUOZUaJX1nBrvY6Aj4PX3Gb0XBHN/view?usp=sharing
+[https://drive.google.com/file/d/1skLOJUOZUaJX1nBrvY6Aj4PX3Gb0XBHN/view?usp=sharing](https://drive.google.com/file/d/1lOj9cKZckBqEXOWSDSGQLUnNX23U0SgW/view?usp=sharing)
+The landing webpage detects location via search box or automatically via request fetches the details and alerts if the windspeed or rain is adverse in climatic conditions and alert via sound upon such a situation
 *Explain what the video demonstrates*
 
 # Additional Demos
-[Add any extra demo materials/links]
+
 
 ## Team Contributions
 - VINAYAK D: backend
